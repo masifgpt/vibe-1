@@ -6,7 +6,7 @@ const Page = () => {
       <figure className="md:flex bg-slate-100 rounded-2xl p-8 dark:bg-slate-800">
         <img
           className="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto"
-          src="/pic1.jpg"
+          src="/pic.jpg"
           alt="Pic1"
         />
 
