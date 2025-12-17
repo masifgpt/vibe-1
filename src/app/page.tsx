@@ -33,8 +33,8 @@ const Page = () => {
       <figure className="md:flex bg-slate-100 rounded-2xl p-8 dark:bg-slate-800">
         <img
           className="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto"
-          src="/pic.jpg"
-          alt="Pic"
+          src="/pic2.jpg"
+          alt="Pic2"
         />
 
         <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
