@@ -1,28 +1,63 @@
-import React from 'react'
-
-const page = () => {
+const Page = () => {
   return (
-    <div><figure className="md:flex bg-slate-100 rounded-x2 p-8 dark:bg-slate-800">
-  <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/pic.jpg" alt="" width="384" height="512"/>
-  <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
-    <blockquote>
-      <p className="text-lg font-medium">
-        “Tailwind CSS is the only framework that I've seen scale
-        on large teams. It’s easy to customize, adapts to any design,
-        and the build size is tiny.”
-      </p>
-    </blockquote>
-    <figcaption className="font-medium">
-      <div className="text-sky-500 dark:text-sky-400">
-        4K Wallpaper
-      </div>
-      <div className="text-slate-700 dark:text-slate-500">
-        Staff Engineer, Algolia
-      </div>
-    </figcaption>
-  </div>
-</figure></div>
+    <div className="space-y-8">
+
+      {/* Card 1 */}
+      <figure className="md:flex bg-slate-100 rounded-2xl p-8 dark:bg-slate-800">
+        <img
+          className="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto"
+          src="/pic1.jpg"
+          alt="Pic 1"
+        />
+
+        <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <blockquote>
+            <p className="text-lg font-medium">
+              “This is first text for first image. Tailwind CSS makes
+              styling fast and responsive.”
+            </p>
+          </blockquote>
+
+          <figcaption className="font-medium">
+            <div className="text-sky-500 dark:text-sky-400">
+              M Asif
+            </div>
+            <div className="text-slate-700 dark:text-slate-500">
+              PAIB Student
+            </div>
+          </figcaption>
+        </div>
+      </figure>
+
+      {/* Card 2 */}
+      <figure className="md:flex bg-slate-100 rounded-2xl p-8 dark:bg-slate-800">
+        <img
+          className="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto"
+          src="/pic.jpg"
+          alt="Pic 2"
+        />
+
+        <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <blockquote>
+            <p className="text-lg font-medium">
+              “This is second text for second image. Next.js with
+              Tailwind is powerful and easy.”
+            </p>
+          </blockquote>
+
+          <figcaption className="font-medium">
+            <div className="text-sky-500 dark:text-sky-400">
+              4K
+            </div>
+            <div className="text-slate-700 dark:text-slate-500">
+              Wallpaper
+            </div>
+          </figcaption>
+        </div>
+      </figure>
+
+    </div>
   )
 }
 
-export default page
+export default Page
