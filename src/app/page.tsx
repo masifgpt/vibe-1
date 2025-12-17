@@ -7,7 +7,7 @@ const Page = () => {
         <img
           className="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto"
           src="/pic1.jpg"
-          alt="Pic 1"
+          alt="Pic1"
         />
 
         <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
@@ -34,7 +34,7 @@ const Page = () => {
         <img
           className="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto"
           src="/pic.jpg"
-          alt="Pic 2"
+          alt="Pic"
         />
 
         <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
